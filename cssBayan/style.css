@@ -1,0 +1,88 @@
+html{
+    box-sizing: border-box;
+    background-color:bisque;
+    font-family: 'Arial';
+    font-style: normal;
+    font-size:calc(100vw / 1920 * 10);
+    @media(max-width){
+        font-size:calc(100vw / 820 * 10)
+    }
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    
+}
+ 
+
+.title{
+    margin-top: 3rem;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+.accordion {
+    max-width: 100rem;
+    margin:0 auto;
+    cursor:pointer;
+}
+
+.accordion-item {
+    cursor:pointer;
+    border-top: 0.1rem solid  #F1CDB3;;
+    border-bottom: 0.1rem solid  #F1CDB3;;
+   margin-bottom: 1rem;
+}
+
+.accordion-mem-title {
+    padding-bottom: 1.2rem;
+    display: block;
+   
+}
+
+.accord-input {
+    appearance: none;
+}
+.accord-input:checked ~ .image-mem  { 
+    
+    height: 25rem;
+    transition: 0.7s;
+}
+.accordion-mem-title:hover ~ .image-mem {
+    
+    height: 25rem;
+    transition: 0.7s;
+}
+
+.title-block{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.image-mem {
+    display: flex;
+justify-content: space-around;
+    overflow: hidden;
+    height: 0;
+    transition: 0.7s;
+   
+
+}
+.img-mem{
+    margin-bottom: 2rem;
+}
+.icon-mem{
+    height: 2rem;
+  
+    width: 2rem;
+    
+    transition: 0.7s;
+}
+
+
+.title-mem{
+    font-size: 2em;
+   
+}
