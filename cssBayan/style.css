@@ -118,7 +118,7 @@ justify-content: space-around;
 
 
 .title-mem{
-    font-size: 5rem;
+    font-size: 4rem;
     cursor:pointer;
    
 }
@@ -131,13 +131,13 @@ justify-content: space-around;
     
 
     .title-mem{
-        font-size: 4em;
+        font-size: 3em;
     }
 }
 
 @media(max-width: 320px){
     font-size:calc(100vw / 320 * 10)
     .title-mem{
-        font-size: 3em;
+        font-size: 2em;
     }
 }
