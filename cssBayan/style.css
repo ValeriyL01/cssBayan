@@ -121,11 +121,11 @@ justify-content: space-around;
 
 @media(max-width: 820px){
     .container {
-        width: 700px;
+        max-width: 700px;
       
     }
     .accordion {
-        width: 700px;
+        max-width: 700px;
        
     }
    
@@ -148,32 +148,61 @@ justify-content: space-around;
         font-size: 16px;
     }
     .icon-mem{
-        width: 20px;
+        max-width: 20px;
     }
 }
-
-@media(max-width: 320px){
+@media(max-width: 620px){
     .container {
-        width: 300px;
+        max-width: 400px;
     }
     .accordion {
-        width: 300px;
+        max-width: 400px;
     }
    
     .accordion-item:hover .image-mem{
-        height: 150px; 
+        height: 180px; 
     }
     .accord-input:checked ~ .image-mem  { 
     
-        height: 150px;
+        height: 180px;
     }
     .accordion-mem-title:hover ~ .image-mem {
       
-        height: 150px;
+        height: 180px;
     }
     .img-mem{
       
-        height: 150px;
+        height: 180px;
+    }
+    .title-mem{
+        font-size: 14px;
+    }
+    .icon-mem{
+        width: 17px;
+    }
+}
+@media(max-width: 320px){
+    .container {
+        max-width: 300px;
+    }
+    .accordion {
+        max-width: 300px;
+    }
+   
+    .accordion-item:hover .image-mem{
+        height: 180px;
+    }
+    .accord-input:checked ~ .image-mem  { 
+    
+        height: 180px;
+    }
+    .accordion-mem-title:hover ~ .image-mem {
+      
+        height: 180px;
+    }
+    .img-mem{
+      
+        height: 180px;
     }
     .title-mem{
         font-size: 12px;
