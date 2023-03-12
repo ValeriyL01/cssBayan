@@ -87,6 +87,12 @@ html{
     
     color: black;
 }
+.accord-input:checked ~ .accordion-mem-title > .title-block > .icon-mem { 
+    
+    transform: rotate(45deg);
+    transition: 0.7s;
+}
+
 .title-block{
     display: flex;
 justify-content: space-between;
@@ -149,10 +155,7 @@ justify-content: space-around;
     .icon-mem{
         height: 1.25rem;
     }
-    .title-block:active .icon-mem{
-        transform: rotate(90deg);
-        transition: 0.3s;
-    }
+   
 }
 @media(max-width: 620px){
     .container {
@@ -178,10 +181,7 @@ justify-content: space-around;
     .icon-mem{
         height: 1rem;
     }
-    .title-block:active .icon-mem{
-        transform: rotate(90deg);
-        transition: 0.3s;
-    }
+ 
 }
 @media(max-width: 320px){
     .container {
@@ -191,7 +191,6 @@ justify-content: space-around;
         max-width: 95%;
     }
    
-    
     .accord-input:checked ~ .image-mem  { 
     
         height: 12.5rem;
@@ -208,8 +207,5 @@ justify-content: space-around;
     .icon-mem{
         width: 0.93rem;
     }
-    .title-block:active .icon-mem{
-        transform: rotate(90deg);
-        transition: 0.3s;
-    }
+  
 }
